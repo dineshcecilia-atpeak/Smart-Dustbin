@@ -1,28 +1,61 @@
-This project was generated from [create.xyz](https://create.xyz/).
+# 🗑️ Smart Dustbin
 
-It is a [Next.js](https://nextjs.org/) project built on React and TailwindCSS.
+A Smart Dustbin system designed to promote hygienic and efficient waste disposal using automation and sensor-based interaction.
 
-## Getting Started
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔌 **Automatic Lid Opening** using Ultrasonic or IR sensors
+- 🧠 **Microcontroller-Based Logic** (Arduino, Raspberry Pi, etc.)
+- 🧼 **Touch-Free Operation** for improved hygiene
+- 🌱 **Eco-friendly Design** suitable for smart cities
+- ⚡ **Battery/Power-Driven Mechanism**
 
-You can start editing the code in `src`. The page auto-updates as you edit the file.
+---
 
-To learn more, take a look at the following resources:
+## 🎥 Demo
 
-- [React Documentation](https://react.dev/) - learn about React
-- [TailwindCSS Documentation](https://tailwindcss.com/) - learn about TailwindCSS
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Watch the full demonstration video here:  
+
+https://github.com/user-attachments/assets/dd34417e-46d8-4087-89d8-3a714cd0aa59
+
+
+
+---
+
+## 🛠️ Technologies Used
+
+- 🔧 Arduino / Raspberry Pi
+- 🌐 Ultrasonic Sensor (HC-SR04) or IR Sensor
+- ⚙️ Servo Motor
+- 🔋 Battery Module / Power Adapter
+- 🧠 C / Embedded C (Arduino IDE) or Python (for Raspberry Pi)
+
+---
+
+## ✍️ How It Works
+
+1. Sensor detects motion (hand/approach)
+2. Lid opens automatically
+3. Waits for a few seconds
+4. Lid closes again
+
+---
+
+## 🧰 Setup (if Arduino-based)
+
+1. Connect the ultrasonic sensor and servo motor to the Arduino as per circuit.
+2. Upload the code via Arduino IDE.
+3. Power the device and test the functionality.
+
+---
+
+## 📌 Applications
+
+- Public waste bins
+- Hospitals & clinics
+- Smart homes
+- Schools & campuses
+
